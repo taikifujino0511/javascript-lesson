@@ -81,3 +81,11 @@ console.log(calc.add(4, 3));
 console.log(calc.subtract(15, 5));
 console.log(calc.multiply(7, 7));
 console.log(calc.divide(45, 9))
+
+// Q9
+function reminder(x, y) {
+  return x % y;
+}
+let x = 5;
+let y = 3;
+console.log(x + " を " + y + " で割った余りは " + reminder(x, y) + " です。");
