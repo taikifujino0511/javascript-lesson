@@ -98,3 +98,7 @@ function foo() {
 console.log(x);
 */
 // A: 関数fooの中でletで定義された変数xは関数のスコープの中でのみ使用可能なので、スコープ外である関数の外で使用すると参照できずエラーとなります。
+
+//Advanced Q1
+let randomInt = Math.floor(Math.random() * 10);
+console.log(randomInt);
