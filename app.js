@@ -111,3 +111,14 @@ const sayHelloWorld = function(callback) {
 sayHelloWorld(function(){
   console.log("Hello World!")
 })
+
+// Advanced Q3
+let num = 0;
+
+if (num === 0) {
+  console.log("num is 0")
+} else if (num > 0) {
+  console.log("num is greater than 0");
+} else if (num < 0) {
+  console.log("num is less than 0")
+}
