@@ -122,3 +122,11 @@ if (num === 0) {
 } else if (num < 0) {
   console.log("num is less than 0")
 }
+
+// Advanced Q4
+let numbers = [];
+
+for (let i = 0; i < 100; i++) {
+  numbers[i] = i
+}
+console.log(numbers)
