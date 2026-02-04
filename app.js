@@ -35,3 +35,11 @@ let playerList = [
   },
 ];
 console.log(playerList[1].favorites[1]);
+
+// Q5
+let totalAge = 0;
+for (let i = 0; i < playerList.length; i++) {
+  totalAge += playerList[i].age;
+}
+let averageAge = totalAge / playerList.length;
+console.log(averageAge);
