@@ -62,3 +62,22 @@ user.sayHello = function() {
   console.log("Hello!");
 }
 user.sayHello();
+
+// Q8
+let calc = {};
+calc.add = function(x, y) {
+  return x + y;
+}
+calc.subtract = function(x, y) {
+  return x - y;
+}
+calc.multiply = function(x, y) {
+  return x * y;
+}
+calc.divide = function(x, y) {
+  return x / y;
+}
+console.log(calc.add(4, 3));
+console.log(calc.subtract(15, 5));
+console.log(calc.multiply(7, 7));
+console.log(calc.divide(45, 9))
