@@ -89,3 +89,12 @@ function reminder(x, y) {
 let x = 5;
 let y = 3;
 console.log(x + " を " + y + " で割った余りは " + reminder(x, y) + " です。");
+
+// Q10
+/*
+function foo() {
+  let x = 1;
+}
+console.log(x);
+*/
+// A: 関数fooの中でletで定義された変数xは関数のスコープの中でのみ使用可能なので、スコープ外である関数の外で使用すると参照できずエラーとなります。
