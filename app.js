@@ -43,3 +43,16 @@ for (let i = 0; i < playerList.length; i++) {
 }
 let averageAge = totalAge / playerList.length;
 console.log(averageAge);
+
+// Q6
+const sayHello = function() {
+  console.log("Hello")
+}
+sayHello();
+
+function sayWorld(callback){
+  callback();
+}
+sayWorld(function() {
+  console.log("World");
+})
