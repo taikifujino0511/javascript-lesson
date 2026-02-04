@@ -130,3 +130,18 @@ for (let i = 0; i < 100; i++) {
   numbers[i] = i
 }
 console.log(numbers)
+
+// Advanced Q5
+let mixed = [4, '2', 5, '8', '9', 0, 1];
+
+for (let i = 0; i < mixed.length; i++) {
+  if (typeof(mixed[i]) !== "number") {
+    console.log("not number");
+    continue
+  }
+  if (mixed[i] % 2 == 0) {
+    console.log("even");
+  } else {
+    console.log("odd");
+  }
+}
