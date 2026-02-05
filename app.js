@@ -57,7 +57,6 @@ sayWorld();
 
 // Q7
 user.birthday = '2000-09-27';
-//console.log(user.birthday);
 user.sayHello = function() {
   console.log("Hello!");
 }
@@ -80,7 +79,7 @@ calc.divide = function(x, y) {
 console.log(calc.add(4, 3));
 console.log(calc.subtract(15, 5));
 console.log(calc.multiply(7, 7));
-console.log(calc.divide(45, 9))
+console.log(calc.divide(45, 9));
 
 // Q9
 function reminder(x, y) {
@@ -109,7 +108,7 @@ const sayHelloWorld = function(callback) {
 }
 
 sayHelloWorld(function(){
-  console.log("Hello World!")
+  console.log("Hello World!");
 })
 
 // Advanced Q3
@@ -120,7 +119,7 @@ if (num === 0) {
 } else if (num > 0) {
   console.log("num is greater than 0");
 } else if (num < 0) {
-  console.log("num is less than 0")
+  console.log("num is less than 0");
 }
 
 // Advanced Q4
@@ -129,7 +128,7 @@ let numbers = [];
 for (let i = 0; i < 100; i++) {
   numbers[i] = i
 }
-console.log(numbers)
+console.log(numbers);
 
 // Advanced Q5
 let mixed = [4, '2', 5, '8', '9', 0, 1];
@@ -137,7 +136,7 @@ let mixed = [4, '2', 5, '8', '9', 0, 1];
 for (let i = 0; i < mixed.length; i++) {
   if (typeof(mixed[i]) !== "number") {
     console.log("not number");
-    continue
+    continue;
   }
   if (mixed[i] % 2 == 0) {
     console.log("even");
