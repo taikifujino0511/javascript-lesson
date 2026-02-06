@@ -103,13 +103,11 @@ let randomInt = Math.floor(Math.random() * 10);
 console.log(randomInt);
 
 // Advanced Q2
-const sayHelloWorld = function(callback) {
-  callback();
+const sayHelloWorld = function() {
+  setTimeout(() => {
+    console.log("Hello World!")
+  }, 300);
 }
-
-sayHelloWorld(function(){
-  console.log("Hello World!");
-})
 
 // Advanced Q3
 let num = 0;
