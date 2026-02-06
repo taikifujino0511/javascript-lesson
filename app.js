@@ -106,7 +106,7 @@ console.log(randomInt);
 const sayHelloWorld = function() {
   setTimeout(() => {
     console.log("Hello World!")
-  }, 300);
+  }, 3000);
 }
 
 // Advanced Q3
